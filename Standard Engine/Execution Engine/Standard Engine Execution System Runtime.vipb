@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-08-01 11:31:17" Creator="Daniel" Comments="" ID="9b08ffcc66f61aa50567111664f80c40">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-08-20 17:17:00" Creator="Daniel" Comments="" ID="b20609d08723dd321c98ad77c1051104">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_stdeng_exec</Package_File_Name>
     <Library_Version>1.0.0.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\..\package releases\standard engine\Execution Engine</Library_Output_Folder>
+    <Library_Output_Folder>..\..\..\releases\engines\standard engine</Library_Output_Folder>
     <Company_Name>National Instruments</Company_Name>
     <Library_Summary/>
     <Library_License>BSD 2-clause</Library_License>
@@ -339,7 +339,7 @@
         <Path>Configuration\Read Module Error Configurations.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>42102BE15F0A92842200A28DC21ACE60</GUID>
+      <GUID>26A05650FA650E0915C4C6E1588F7AFA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
