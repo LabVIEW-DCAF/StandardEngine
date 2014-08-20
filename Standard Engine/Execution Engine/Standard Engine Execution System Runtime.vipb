@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-08-20 17:17:00" Creator="Daniel" Comments="" ID="b20609d08723dd321c98ad77c1051104">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-08-20 17:45:17" Creator="Daniel" Comments="" ID="b9f3a4a38a2b28c968c15ddc8ffcce20">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_stdeng_exec</Package_File_Name>
-    <Library_Version>1.0.0.15</Library_Version>
+    <Library_Version>1.0.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\releases\engines\standard engine</Library_Output_Folder>
