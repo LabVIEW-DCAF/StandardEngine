@@ -22,9 +22,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="asynchronous execution module" Type="Folder" URL="../asynchronous execution module">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="../Configuration/Standard Engine Configuration.lvclass"/>
 		<Item Name="Standard Engine Runtime.lvclass" Type="LVClass" URL="../Runtime/Standard Engine Runtime.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
