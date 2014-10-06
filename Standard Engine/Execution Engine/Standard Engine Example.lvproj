@@ -25,12 +25,11 @@
 		<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="../Configuration/Standard Engine Configuration.lvclass"/>
 		<Item Name="Standard Engine Runtime.lvclass" Type="LVClass" URL="../Runtime/Standard Engine Runtime.lvclass"/>
 		<Item Name="test1.vi" Type="VI" URL="../tests/test1.vi"/>
+		<Item Name="testmod configuration.lvclass" Type="LVClass" URL="../tests/testmodule/configuration/testmod configuration.lvclass"/>
+		<Item Name="testmod runtime.lvclass" Type="LVClass" URL="../tests/testmodule/execution/testmod runtime.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Current Value Table.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Current Value Table/Current Value Table.lvlib"/>
-				<Item Name="CVT configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/CVT Access/module/configuration/CVT configuration.lvclass"/>
-				<Item Name="CVT runtime.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/CVT Access/module/execution/CVT runtime.lvclass"/>
 				<Item Name="engine configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Configuration/engine configuration.lvclass"/>
 				<Item Name="Engine Runtime Interface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Runtime/Engine Runtime Interface.lvclass"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
