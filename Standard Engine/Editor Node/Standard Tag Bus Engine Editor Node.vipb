@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-28 13:58:43" Modified_Date="2014-10-06 19:47:10" Creator="Daniel" Comments="" ID="25cc73d03864c48ddc4fce4bf78b1608">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-28 13:58:43" Modified_Date="2014-10-06 21:32:40" Creator="Daniel" Comments="" ID="30376f11c81dcf57f2b535c4ffaa655b">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_stdeng_editnode</Package_File_Name>
-    <Library_Version>1.1.0.23</Library_Version>
+    <Library_Version>1.1.0.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\releases\engines\standard engine</Library_Output_Folder>
