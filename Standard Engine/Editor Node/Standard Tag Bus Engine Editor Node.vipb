@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-28 13:58:43" Modified_Date="2014-08-21 11:32:28" Creator="Daniel" Comments="" ID="660c8ad91fbccf035f6dbf19e3b3373c">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-28 13:58:43" Modified_Date="2014-10-06 19:47:10" Creator="Daniel" Comments="" ID="25cc73d03864c48ddc4fce4bf78b1608">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_stdeng_editnode</Package_File_Name>
-    <Library_Version>1.0.0.22</Library_Version>
+    <Library_Version>1.1.0.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\releases\engines\standard engine</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dataeng &gt;=1.0.2.71</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_stdeng_exec &gt;=1.0.0.13</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dataeng &gt;=1.0.5.87</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_stdeng_exec &gt;=1.1.0.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -35,7 +35,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes>relink to new FGV location for loading modules</Release_Notes>
+      <Release_Notes>includes priority functionality and async settings</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
