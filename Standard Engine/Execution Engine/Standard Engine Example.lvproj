@@ -24,7 +24,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="../Configuration/Standard Engine Configuration.lvclass"/>
 		<Item Name="Standard Engine Runtime.lvclass" Type="LVClass" URL="../Runtime/Standard Engine Runtime.lvclass"/>
-		<Item Name="test1.vi" Type="VI" URL="../tests/test1.vi"/>
+		<Item Name="std eng tests.lvlib" Type="Library" URL="../tests/std eng tests.lvlib"/>
 		<Item Name="testmod configuration.lvclass" Type="LVClass" URL="../tests/testmodule/configuration/testmod configuration.lvclass"/>
 		<Item Name="testmod runtime.lvclass" Type="LVClass" URL="../tests/testmodule/execution/testmod runtime.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
