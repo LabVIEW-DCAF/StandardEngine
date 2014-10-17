@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-10-06 19:01:17" Creator="Daniel" Comments="" ID="7f7fd92d972538daa65d4dac5b9506d1">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-10-17 15:44:13" Creator="Daniel" Comments="" ID="ab2c33beed2f26f14fb8c5c5fe7b0ed0">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_stdeng_exec</Package_File_Name>
-    <Library_Version>1.1.0.2</Library_Version>
+    <Library_Version>1.2.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\releases\engines\standard engine</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes>Added asynchronous module execution features</Release_Notes>
+      <Release_Notes>Added error and timing reporting features</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -395,7 +395,7 @@
         <Path>Configuration\write module priority.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17689B202253AE980470BF98DCCF6AAE</GUID>
+      <GUID>17F3FC1428879DD6FF2E3533AEA3D41B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
