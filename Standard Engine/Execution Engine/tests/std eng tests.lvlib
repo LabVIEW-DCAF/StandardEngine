@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="test timing reporting.vi" Type="VI" URL="../test timing reporting.vi"/>
+	<Item Name="test status reporting enable disable.vi" Type="VI" URL="../test status reporting enable disable.vi"/>
+	<Item Name="test timing reporting enable disable.vi" Type="VI" URL="../test timing reporting enable disable.vi"/>
 	<Item Name="test1.vi" Type="VI" URL="../test1.vi"/>
 </Library>
