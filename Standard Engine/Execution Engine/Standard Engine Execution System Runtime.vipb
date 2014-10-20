@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-10-17 18:29:23" Creator="Daniel" Comments="" ID="b4c3c6237ac9a79d99704024cdf76173">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-10-20 14:14:57" Creator="Daniel" Comments="" ID="addfee18db9419f050508c89a5bbe432">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_stdeng_exec</Package_File_Name>
-    <Library_Version>1.2.0.3</Library_Version>
+    <Library_Version>1.2.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\releases\engines\standard engine</Library_Output_Folder>
@@ -479,7 +479,7 @@
         <Path>Configuration\to string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2FEEC2E935081D831342908E9A1761C3</GUID>
+      <GUID>958FB36C8F5E6348A68B5F06840F6150</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
