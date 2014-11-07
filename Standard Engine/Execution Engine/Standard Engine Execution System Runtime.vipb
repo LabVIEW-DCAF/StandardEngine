@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-10-20 14:14:57" Creator="Daniel" Comments="" ID="addfee18db9419f050508c89a5bbe432">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-11-06 22:54:05" Creator="Daniel" Comments="" ID="ab8f31fb866f1d214395c04f621ca51f">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_stdeng_exec</Package_File_Name>
-    <Library_Version>1.2.1.4</Library_Version>
+    <Library_Version>1.2.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\releases\engines\standard engine</Library_Output_Folder>
@@ -34,7 +34,8 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes>Added error and timing reporting features</Release_Notes>
+      <Release_Notes>Corrected issues where error would not be fixed if it occured on the first iteration.
+Corrected issue where engine would not shut down if it is running in an unexpected state.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -479,7 +480,7 @@
         <Path>Configuration\to string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>958FB36C8F5E6348A68B5F06840F6150</GUID>
+      <GUID>5A5B02558CFC7D1A951DAE4BD8A1337B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
