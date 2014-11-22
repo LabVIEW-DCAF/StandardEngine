@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-11-21 18:47:25" Creator="Daniel" Comments="" ID="6b20d40f312e7a0d2c97ea79aab9d021">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-11-21 18:57:23" Creator="Daniel" Comments="" ID="31b5de88886e70f8427bc1fbe8a5667c">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_stdeng_exec</Package_File_Name>
     <Library_Version>2.0.0.2</Library_Version>
@@ -115,7 +115,7 @@
         <Path>tests</Path>
       </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath>NI_Sample_Code_ License_Terms_201202.txt</License_Agreement_Filepath>
+    <License_Agreement_Filepath>sample_code_license_terms_20141101.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -479,7 +479,7 @@
         <Path>Configuration\to string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D59C49C844AC08907096F6C1DF9D5EAA</GUID>
+      <GUID>00D6DEE4CE80BFBEACA8E185AD7FF2C4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
