@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-28 13:58:43" Modified_Date="2014-11-21 18:56:25" Creator="Daniel" Comments="" ID="45008f912e3687f933a1ec6d1db9f980">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-28 13:58:43" Modified_Date="2014-11-24 23:09:57" Creator="Daniel" Comments="" ID="af11a00bd9a72d7ab7ad1530149c3ca0">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_stdeng_editnode</Package_File_Name>
-    <Library_Version>2.0.0.1</Library_Version>
+    <Library_Version>2.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\releases\engines\standard engine</Library_Output_Folder>
@@ -111,9 +111,6 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>standard engine editor.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>NI_Sample_Code_ License_Terms_201202.txt</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>sample_code_license_terms_20141101.txt</License_Agreement_Filepath>
