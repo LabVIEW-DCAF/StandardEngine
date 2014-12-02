@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-11-26 22:12:55" Creator="Daniel" Comments="" ID="80763ec30c8927bb08e9362e2f60b566">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2014-11-26 22:47:00" Creator="Daniel" Comments="" ID="3850d04373b14fbf7371d8809db45ee0">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbd_stdeng</Package_File_Name>
-    <Library_Version>2.0.0.3</Library_Version>
+    <Library_Version>2.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\releases\engines\standard engine</Library_Output_Folder>
@@ -100,6 +100,36 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Execution Engine/Configuration</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Execution Engine/Runtime</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Execution Engine/standard engine configuration drop VI.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Execution Engine/standard engine runtime builder.lvproj</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Execution Engine/standard engine runtime drop VI.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -110,6 +140,36 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>Editor Node/sample_code_license_terms_20141101.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Editor Node/standard engine editor.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Execution Engine/tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Execution Engine/sample_code_license_terms_20141101.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Execution Engine/Standard Engine Example.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>.gitignore</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>LICENSE.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>README.md</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>sample_code_license_terms_20141101.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>standard engine full.lvproj</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>sample_code_license_terms_20141101.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -475,7 +535,7 @@
         <Path>Execution Engine\Configuration\to string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2A7786839421C193DC14B31EE9ECC2E</GUID>
+      <GUID>874EE56BE129915ADB3EF02B236787C1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
