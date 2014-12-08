@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -20,13 +21,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
-			<Item Name="std eng tests.lvlib" Type="Library" URL="../Standard Engine/Execution Engine/tests/std eng tests.lvlib"/>
-			<Item Name="testmod configuration.lvclass" Type="LVClass" URL="../Standard Engine/Execution Engine/tests/testmodule/configuration/testmod configuration.lvclass"/>
-			<Item Name="testmod runtime.lvclass" Type="LVClass" URL="../Standard Engine/Execution Engine/tests/testmodule/execution/testmod runtime.lvclass"/>
+			<Item Name="std eng tests.lvlib" Type="Library" URL="../Execution Engine/tests/std eng tests.lvlib"/>
+			<Item Name="testmod configuration.lvclass" Type="LVClass" URL="../Execution Engine/tests/testmodule/configuration/testmod configuration.lvclass"/>
+			<Item Name="testmod runtime.lvclass" Type="LVClass" URL="../Execution Engine/tests/testmodule/execution/testmod runtime.lvclass"/>
 		</Item>
-		<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="../Standard Engine/Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
-		<Item Name="Standard Engine Editor Node.lvclass" Type="LVClass" URL="../Standard Engine/Editor Node/Standard Engine Editor Node.lvclass"/>
-		<Item Name="Standard Engine Runtime.lvclass" Type="LVClass" URL="../Standard Engine/Execution Engine/Runtime/Standard Engine Runtime.lvclass"/>
+		<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="../Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
+		<Item Name="Standard Engine Editor Node.lvclass" Type="LVClass" URL="../Editor Node/Standard Engine Editor Node.lvclass"/>
+		<Item Name="Standard Engine Runtime.lvclass" Type="LVClass" URL="../Execution Engine/Runtime/Standard Engine Runtime.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
@@ -36,7 +37,6 @@
 				<Item Name="class discovery singleton.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/class discovery singleton/class discovery singleton.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="create GUID.vi" Type="VI" URL="/&lt;vilib&gt;/NI/CEF/CEF_TreeControl/serializable configuration/create GUID.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
