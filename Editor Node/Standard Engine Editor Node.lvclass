@@ -25,15 +25,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="core overrides" Type="Folder">
-		<Item Name="read default menu name.vi" Type="VI" URL="../read default menu name.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;J!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"J!-0````]2:'6G986M&gt;#"N:7ZV)'ZB&lt;75!4E"Q!"Y!!#5D5X2B&lt;G2B=G1A27ZH;7ZF)%6E;82P=C"/&lt;W2F,GRW9WRB=X-!(V.U97ZE98*E)%6O:WFO:3"&amp;:'FU&lt;X)A4G^E:3"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%Z!=!!?!!!F)V.U97ZE98*E)%6O:WFO:3"&amp;:'FU&lt;X)A4G^E:3ZM&gt;G.M98.T!"Z4&gt;'&amp;O:'&amp;S:#"&amp;&lt;G&gt;J&lt;G5A272J&gt;'^S)%ZP:'5A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
-		</Item>
 		<Item Name="UIRef.vi" Type="VI" URL="../UIRef.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;.!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!=!!)!!!!!A!!#6:*)(*F:GZV&lt;1"#1(!!(A!!*3.4&gt;'&amp;O:'&amp;S:#"&amp;&lt;G&gt;J&lt;G5A272J&gt;'^S)%ZP:'5O&lt;(:D&lt;'&amp;T=Q!45X2B&lt;G2B=G1A27ZH;7ZF)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!1E"Q!"Y!!#5D5X2B&lt;G2B=G1A27ZH;7ZF)%6E;82P=C"/&lt;W2F,GRW9WRB=X-!%F.U97ZE98*E)%6O:WFO:3"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
