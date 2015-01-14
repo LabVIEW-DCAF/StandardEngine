@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2015-01-13 18:48:37" Creator="Daniel" Comments="" ID="48ef346a7ff3da301a3f1bbee3eec7b8">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2015-01-14 14:29:14" Creator="Daniel" Comments="" ID="26fdf1ed09d255d66acbbf20163e1fa2">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbd_stdeng</Package_File_Name>
     <Library_Version>2.1.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\releases\engines\standard engine</Library_Output_Folder>
+    <Library_Output_Folder>..\..\releases\engines\standard engine</Library_Output_Folder>
     <Company_Name>National Instruments</Company_Name>
     <Library_Summary/>
     <Library_License>NI Sample Code License</Library_License>
@@ -157,13 +157,7 @@
         <Path>Execution Engine/Standard Engine Example.lvproj</Path>
       </Exclusions>
       <Exclusions>
-        <Path>.gitignore</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>LICENSE.txt</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>README.md</Path>
       </Exclusions>
       <Exclusions>
         <Path>sample_code_license_terms_20141101.txt</Path>
@@ -536,7 +530,7 @@
         <Path>Execution Engine\Configuration\to string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>365427F3655AC0C8E24AEAE8BB561B08</GUID>
+      <GUID>E371460E9411B9E64258D23847C49973</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
