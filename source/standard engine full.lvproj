@@ -25,9 +25,12 @@
 			<Item Name="testmod configuration.lvclass" Type="LVClass" URL="../Execution Engine/tests/testmodule/configuration/testmod configuration.lvclass"/>
 			<Item Name="testmod runtime.lvclass" Type="LVClass" URL="../Execution Engine/tests/testmodule/execution/testmod runtime.lvclass"/>
 		</Item>
+		<Item Name="async executor.lvlib" Type="Library" URL="../Execution Engine/async executor/async executor.lvlib"/>
+		<Item Name="main engine.lvlib" Type="Library" URL="../Execution Engine/main engine/main engine.lvlib"/>
 		<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="../Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
 		<Item Name="Standard Engine Editor Node.lvclass" Type="LVClass" URL="../Editor Node/Standard Engine Editor Node.lvclass"/>
 		<Item Name="Standard Engine Runtime.lvclass" Type="LVClass" URL="../Execution Engine/Runtime/Standard Engine Runtime.lvclass"/>
+		<Item Name="worker pool.lvlib" Type="Library" URL="../Execution Engine/worker library/worker pool.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
@@ -67,6 +70,7 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="glyph manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/glyph manager/glyph manager.lvlib"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="IOV engine refnum from target address.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/IOV engine refnum from target address.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
@@ -110,6 +114,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="Synchronize to Scan Engine.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Synchronize to Scan Engine.vi"/>
+				<Item Name="tag bus buffer exchange.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus/buffer exchange/tag bus buffer exchange.lvlib"/>
 				<Item Name="tag bus.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus/tag bus.lvlib"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TBM channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/channel/TBM channel.lvclass"/>
@@ -125,7 +130,11 @@
 				<Item Name="usec timing source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Timing Source/usec timing source/usec timing source.lvclass"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Data Table with Transfer Spec.ctl" Type="VI" URL="../Execution Engine/Runtime/Data Table with Transfer Spec.ctl"/>
+			<Item Name="Module Execution Info.ctl" Type="VI" URL="../Execution Engine/Runtime/Module Execution Info.ctl"/>
+			<Item Name="module status reporting.ctl" Type="VI" URL="../Execution Engine/Runtime/module status reporting.ctl"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="Output.vi" Type="VI" URL="../Execution Engine/Runtime/Output.vi"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
