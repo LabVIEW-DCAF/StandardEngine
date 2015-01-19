@@ -24,6 +24,7 @@
 		<Item Name="asynchronous process data.ctl" Type="VI" URL="../../Runtime/asynchronous process data.ctl"/>
 		<Item Name="Delete Module Index.vi" Type="VI" URL="../../Runtime/Delete Module Index.vi"/>
 	</Item>
+	<Item Name="async check errors.vi" Type="VI" URL="../async check errors.vi"/>
 	<Item Name="async worker process.vi" Type="VI" URL="../async worker process.vi"/>
 	<Item Name="asynchronous executor reference.ctl" Type="VI" URL="../asynchronous executor reference.ctl"/>
 	<Item Name="input data method.vi" Type="VI" URL="../input data method.vi"/>
