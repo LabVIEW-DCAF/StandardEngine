@@ -9,6 +9,7 @@
 		<Item Name="control loop bookkeeping.vi" Type="VI" URL="../../Runtime/control loop bookkeeping.vi"/>
 		<Item Name="control loop input action.vi" Type="VI" URL="../../Runtime/control loop input action.vi"/>
 		<Item Name="control loop output action.vi" Type="VI" URL="../../Runtime/control loop output action.vi"/>
+		<Item Name="control loop output safe state action.vi" Type="VI" URL="../../Runtime/control loop output safe state action.vi"/>
 		<Item Name="control loop process action.vi" Type="VI" URL="../../Runtime/control loop process action.vi"/>
 		<Item Name="control loop process safe state action.vi" Type="VI" URL="../../Runtime/control loop process safe state action.vi"/>
 		<Item Name="decimate.vi" Type="VI" URL="../../Runtime/decimate.vi"/>
@@ -19,7 +20,6 @@
 		<Item Name="perform asynchronous fault handling.vi" Type="VI" URL="../../Runtime/perform asynchronous fault handling.vi"/>
 		<Item Name="perform fault handling.vi" Type="VI" URL="../../Runtime/perform fault handling.vi"/>
 		<Item Name="primary control loop.vi" Type="VI" URL="../../Runtime/primary control loop.vi"/>
-		<Item Name="Process Safe State.vi" Type="VI" URL="../../Runtime/Process Safe State.vi"/>
 		<Item Name="report timing.vi" Type="VI" URL="../../Runtime/report timing.vi"/>
 		<Item Name="rt swap object in dvr.vi" Type="VI" URL="../../Runtime/rt swap object in dvr.vi"/>
 		<Item Name="safe state action.vi" Type="VI" URL="../../Runtime/safe state action.vi"/>
@@ -45,6 +45,5 @@
 		<Item Name="time information.ctl" Type="VI" URL="../../Runtime/time information.ctl"/>
 		<Item Name="timed loop timing sources.ctl" Type="VI" URL="../../Runtime/timed loop timing sources.ctl"/>
 	</Item>
-	<Item Name="control loop output safe state action.vi" Type="VI" URL="../../Runtime/control loop output safe state action.vi"/>
 	<Item Name="Standard Engine.vi" Type="VI" URL="../../Runtime/Standard Engine.vi"/>
 </Library>

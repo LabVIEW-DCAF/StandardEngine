@@ -29,9 +29,7 @@
 			</Item>
 		</Item>
 		<Item Name="async executor.lvlib" Type="Library" URL="../Execution Engine/async executor/async executor.lvlib"/>
-		<Item Name="Data Table with Transfer Spec.ctl" Type="VI" URL="../Execution Engine/Runtime/Data Table with Transfer Spec.ctl"/>
 		<Item Name="main engine.lvlib" Type="Library" URL="../Execution Engine/main engine/main engine.lvlib"/>
-		<Item Name="module status reporting.ctl" Type="VI" URL="../Execution Engine/Runtime/module status reporting.ctl"/>
 		<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="../Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
 		<Item Name="Standard Engine Editor Node.lvclass" Type="LVClass" URL="../Editor Node/Standard Engine Editor Node.lvclass"/>
 		<Item Name="Standard Engine Runtime.lvclass" Type="LVClass" URL="../Execution Engine/Runtime/Standard Engine Runtime.lvclass"/>
@@ -135,7 +133,6 @@
 				<Item Name="usec timing source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Timing Source/usec timing source/usec timing source.lvclass"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Module Execution Info.ctl" Type="VI" URL="../Execution Engine/Runtime/Module Execution Info.ctl"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
