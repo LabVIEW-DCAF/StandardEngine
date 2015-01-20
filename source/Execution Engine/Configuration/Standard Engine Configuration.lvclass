@@ -169,15 +169,6 @@
 		</Item>
 	</Item>
 	<Item Name="Controls" Type="Folder">
-		<Item Name="Module Error Configuration.ctl" Type="VI" URL="../Module Error Configuration.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*4!!!!"A#4!0%!!!!!!!!!!C:51EUA&lt;7^E&gt;7RF)'6Y:7.V&gt;'FP&lt;C"J&lt;H2F=G:B9W5O&lt;(:D&lt;'&amp;T=RBF=H*P=C"D&lt;'&amp;T=WFG;7.B&gt;'FP&lt;CZD&gt;'Q!3U!7!!5(&gt;7ZL&lt;G^X&lt;A2O&lt;WZF"X2S;8:J97Q,=G6D&lt;X:F=G&amp;C&lt;'5)9X*J&gt;'FD97Q!&amp;'6S=G^S)'.M98.T;7:J9W&amp;U;7^O!!#8!0%!!!!!!!!!!B^4&gt;'&amp;O:'&amp;S:#"&amp;&lt;G&gt;J&lt;G5A5H6O&gt;'FN:3ZM&gt;G.M98.T%56S=G^S)%&amp;D&gt;'FP&lt;H-O9X2M!&amp;V!&amp;A!'"5.M:7&amp;S"EZP&gt;'FG?1Z4&gt;'^Q)%.P&lt;8"P&lt;G6O&gt;!N4&gt;'^Q)%6O:WFO:1J497:F)&amp;.U982F%%&amp;U&gt;'6N=(1A5G6D&lt;X:F=HE!$56S=G^S)%&amp;D&gt;'FP&lt;H-!'E"!!!(`````!!%.28*S&lt;X)A17.U;7^O=Q"O!0%!!!!!!!!!!B^4&gt;'&amp;O:'&amp;S:#"&amp;&lt;G&gt;J&lt;G5A5H6O&gt;'FN:3ZM&gt;G.M98.T(56S=G^S)%&amp;D&gt;'FP&lt;H-A1HEA1W&amp;U:7&gt;P=HEO9X2M!#B!5!!#!!!!!BF&amp;=H*P=C""9X2J&lt;WZT)%*Z)%.B&gt;'6H&lt;X*Z!#B!1!!"`````Q!$'EVP:(6M:3"&amp;=H*P=C"$&lt;WZG;7&gt;V=G&amp;U;7^O!!"R!0%!!!!!!!!!!C&amp;4&gt;'&amp;O:'&amp;S:#"&amp;&lt;G&gt;J&lt;G5A5G6Q&lt;S"%982B,GRW9WRB=X-?47^E&gt;7RF)%6S=G^S)%.P&lt;G:J:X6S982J&lt;WYO9X2M!#B!5!!"!!1;47^E&gt;7RF)%6S=G^S)%.P&lt;G:J:X6S982J&lt;WY!!!%!"1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
-		</Item>
 		<Item Name="Loop Info.ctl" Type="VI" URL="../Loop Info.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#-!!!!"!!71$$`````$62J&lt;7FO:S"4&lt;X6S9W5!$5!%!!:1:8*J&lt;W1!!!^!!Q!*5(*P9W6T=W^S!&amp;)!]1!!!!!!!!!#)6.U97ZE98*E)%6O:WFO:3"3:8"P)%2B&gt;'%O&lt;(:D&lt;'&amp;T=QV-&lt;W^Q)%FO:G]O9X2M!"J!5!!$!!!!!1!##5RP&lt;X!A37ZG&lt;Q!"!!-!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
