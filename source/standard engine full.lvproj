@@ -20,16 +20,22 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="tests" Type="Folder">
-			<Item Name="std eng tests.lvlib" Type="Library" URL="../Execution Engine/tests/std eng tests.lvlib"/>
-			<Item Name="testmod configuration.lvclass" Type="LVClass" URL="../Execution Engine/tests/testmodule/configuration/testmod configuration.lvclass"/>
-			<Item Name="testmod runtime.lvclass" Type="LVClass" URL="../Execution Engine/tests/testmodule/execution/testmod runtime.lvclass"/>
+		<Item Name="testmodule" Type="Folder">
+			<Item Name="configuration" Type="Folder">
+				<Item Name="testmod configuration.lvclass" Type="LVClass" URL="../Execution Engine/tests/testmodule/configuration/testmod configuration.lvclass"/>
+			</Item>
+			<Item Name="execution" Type="Folder">
+				<Item Name="testmod runtime.lvclass" Type="LVClass" URL="../Execution Engine/tests/testmodule/execution/testmod runtime.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="async executor.lvlib" Type="Library" URL="../Execution Engine/async executor/async executor.lvlib"/>
+		<Item Name="Data Table with Transfer Spec.ctl" Type="VI" URL="../Execution Engine/Runtime/Data Table with Transfer Spec.ctl"/>
 		<Item Name="main engine.lvlib" Type="Library" URL="../Execution Engine/main engine/main engine.lvlib"/>
+		<Item Name="module status reporting.ctl" Type="VI" URL="../Execution Engine/Runtime/module status reporting.ctl"/>
 		<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="../Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
 		<Item Name="Standard Engine Editor Node.lvclass" Type="LVClass" URL="../Editor Node/Standard Engine Editor Node.lvclass"/>
 		<Item Name="Standard Engine Runtime.lvclass" Type="LVClass" URL="../Execution Engine/Runtime/Standard Engine Runtime.lvclass"/>
+		<Item Name="std eng tests.lvlib" Type="Library" URL="../Execution Engine/tests/std eng tests.lvlib"/>
 		<Item Name="worker pool.lvlib" Type="Library" URL="../Execution Engine/worker library/worker pool.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -114,7 +120,6 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="Synchronize to Scan Engine.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Synchronize to Scan Engine.vi"/>
-				<Item Name="tag bus buffer exchange.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus/buffer exchange/tag bus buffer exchange.lvlib"/>
 				<Item Name="tag bus.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus/tag bus.lvlib"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TBM channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/channel/TBM channel.lvclass"/>
@@ -130,11 +135,8 @@
 				<Item Name="usec timing source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Timing Source/usec timing source/usec timing source.lvclass"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Data Table with Transfer Spec.ctl" Type="VI" URL="../Execution Engine/Runtime/Data Table with Transfer Spec.ctl"/>
 			<Item Name="Module Execution Info.ctl" Type="VI" URL="../Execution Engine/Runtime/Module Execution Info.ctl"/>
-			<Item Name="module status reporting.ctl" Type="VI" URL="../Execution Engine/Runtime/module status reporting.ctl"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
-			<Item Name="Output.vi" Type="VI" URL="../Execution Engine/Runtime/Output.vi"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

@@ -4,29 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="async" Type="Folder">
-		<Item Name="module threading" Type="Folder">
-			<Item Name="async module processor.vi" Type="VI" URL="../../Runtime/async module processor.vi"/>
-			<Item Name="async request safe state.vi" Type="VI" URL="../../Runtime/async request safe state.vi"/>
-			<Item Name="async safe state action.vi" Type="VI" URL="../../Runtime/async safe state action.vi"/>
-			<Item Name="async send error to engine.vi" Type="VI" URL="../../Runtime/async send error to engine.vi"/>
-			<Item Name="asynchronous input.vi" Type="VI" URL="../../Runtime/asynchronous input.vi"/>
-			<Item Name="asynchronous output safe state.vi" Type="VI" URL="../../Runtime/asynchronous output safe state.vi"/>
-			<Item Name="asynchronous output.vi" Type="VI" URL="../../Runtime/asynchronous output.vi"/>
-			<Item Name="asynchronous process safe state.vi" Type="VI" URL="../../Runtime/asynchronous process safe state.vi"/>
-			<Item Name="asynchronous process.vi" Type="VI" URL="../../Runtime/asynchronous process.vi"/>
-			<Item Name="check asynchronous errors.vi" Type="VI" URL="../../Runtime/check asynchronous errors.vi"/>
-		</Item>
-		<Item Name="async command notification.ctl" Type="VI" URL="../../Runtime/async command notification.ctl"/>
-		<Item Name="async error info.ctl" Type="VI" URL="../../Runtime/async error info.ctl"/>
-		<Item Name="async execution info.ctl" Type="VI" URL="../../Runtime/async execution info.ctl"/>
-		<Item Name="async execution state.ctl" Type="VI" URL="../../Runtime/async execution state.ctl"/>
-		<Item Name="asynchronous process data.ctl" Type="VI" URL="../../Runtime/asynchronous process data.ctl"/>
-		<Item Name="Delete Module Index.vi" Type="VI" URL="../../Runtime/Delete Module Index.vi"/>
-	</Item>
 	<Item Name="async check errors.vi" Type="VI" URL="../async check errors.vi"/>
+	<Item Name="async command notification.ctl" Type="VI" URL="../../Runtime/async command notification.ctl"/>
+	<Item Name="async error info.ctl" Type="VI" URL="../../Runtime/async error info.ctl"/>
 	<Item Name="async worker process.vi" Type="VI" URL="../async worker process.vi"/>
 	<Item Name="asynchronous executor reference.ctl" Type="VI" URL="../asynchronous executor reference.ctl"/>
+	<Item Name="initiate async stop.vi" Type="VI" URL="../initiate async stop.vi"/>
 	<Item Name="input data method.vi" Type="VI" URL="../input data method.vi"/>
 	<Item Name="message to executor.ctl" Type="VI" URL="../message to executor.ctl"/>
 	<Item Name="output data method.vi" Type="VI" URL="../output data method.vi"/>
