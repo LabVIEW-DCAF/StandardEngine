@@ -51,15 +51,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
-		<Item Name="sort module schedule.vi" Type="VI" URL="../sort module schedule.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$M!!!!"Q!%!!!!%U!$!!RN&lt;W2V&lt;'5A;7ZE:8A!!#*!1!!"`````Q!"&amp;8.P=H2F:#"N&lt;W2V&lt;'5A;7ZE;7.F=Q!@1!-!''6Y:7.V&gt;'FP&lt;C"P=G2F=C"Q=GFP=GFU?1!!(%"1!!)!!Q!"%("S;7^S;82Z)'.M&gt;8.U:8)!!"R!1!!"`````Q!%$H"S;7^S;82Z)'&amp;S=G&amp;Z!!"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!"1-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#%A!!!!!"!!9!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
-		</Item>
 		<Item Name="find timing tag indices.vi" Type="VI" URL="../find timing tag indices.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*=!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"F!!Q!3&lt;'&amp;U:4]A;7ZE:8AA+'*P&lt;WQJ!!!&gt;1!-!&amp;GRB&gt;'5A9W^V&lt;H1A;7ZE:8AA+&amp;5T-CE!!"F!!Q!4:(1A+'ZT+3"J&lt;G2F?#!I649U+1"7!0%!!!!!!!!!!B&amp;N97FO)'6O:WFO:3ZM&gt;GRJ9BFT&gt;'&amp;U&gt;8-A=G6Q&lt;X*U;7ZH)'2B&gt;'%O9X2M!#*!5!!$!!5!"A!(%8*F='^S&gt;'FO:S"J&lt;G2J9W6T!":!5!!$!!!!!1!##'6S=G^S)'FO!!!;1$$`````%7RB&gt;'5A;7ZE:8AA+'*P&lt;WQJ!#"!-0````]7&lt;'&amp;U:3"D&lt;X6O&gt;#"J&lt;G2F?#!I64-S+1!!(%!Q`````R*D&gt;8*S:7ZU)'2U)'ZT+&amp;5W.#E!!'I!]1!!!!!!!!!#*6.U97ZE98*E)%6O:WFO:3"$&lt;WZG;7&gt;V=G&amp;U;7^O,GRW9WRB=X-:&gt;'FN;7ZH)(*F='^S&gt;'FO:S"U97&gt;T,G.U&lt;!!C1&amp;!!!Q!+!!M!$""U;7VJ&lt;G=A=G6Q&lt;X*U;7ZH!!"%1(!!(A!!*QVU97=A9H6T,GRW&lt;'FC&amp;W2B&gt;'%A:'FD&gt;'FP&lt;G&amp;S?3ZM&gt;G.M98.T!"*E982B)'2J9X2J&lt;WZB=HEA;7Y!!&amp;1!]!!-!!-!"!!%!!A!"!!%!!1!"!!*!!1!$1!/!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!1!!!!!!%!$Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
