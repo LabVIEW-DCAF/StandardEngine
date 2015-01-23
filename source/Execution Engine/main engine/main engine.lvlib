@@ -5,45 +5,44 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="control loop" Type="Folder">
-		<Item Name="buffer error.vi" Type="VI" URL="../../Runtime/buffer error.vi"/>
-		<Item Name="control loop bookkeeping.vi" Type="VI" URL="../../Runtime/control loop bookkeeping.vi"/>
-		<Item Name="control loop input action.vi" Type="VI" URL="../../Runtime/control loop input action.vi"/>
-		<Item Name="control loop output action.vi" Type="VI" URL="../../Runtime/control loop output action.vi"/>
-		<Item Name="control loop output safe state action.vi" Type="VI" URL="../../Runtime/control loop output safe state action.vi"/>
-		<Item Name="control loop process action.vi" Type="VI" URL="../../Runtime/control loop process action.vi"/>
-		<Item Name="control loop process safe state action.vi" Type="VI" URL="../../Runtime/control loop process safe state action.vi"/>
-		<Item Name="decimate.vi" Type="VI" URL="../../Runtime/decimate.vi"/>
-		<Item Name="fault and error bookkeeping.vi" Type="VI" URL="../../Runtime/fault and error bookkeeping.vi"/>
-		<Item Name="find next action.vi" Type="VI" URL="../../Runtime/find next action.vi"/>
+		<Item Name="buffer error.vi" Type="VI" URL="../buffer error.vi"/>
+		<Item Name="control loop bookkeeping.vi" Type="VI" URL="../control loop bookkeeping.vi"/>
+		<Item Name="control loop input action.vi" Type="VI" URL="../control loop input action.vi"/>
+		<Item Name="control loop output action.vi" Type="VI" URL="../control loop output action.vi"/>
+		<Item Name="control loop output safe state action.vi" Type="VI" URL="../control loop output safe state action.vi"/>
+		<Item Name="control loop process action.vi" Type="VI" URL="../control loop process action.vi"/>
+		<Item Name="control loop process safe state action.vi" Type="VI" URL="../control loop process safe state action.vi"/>
+		<Item Name="decimate.vi" Type="VI" URL="../decimate.vi"/>
+		<Item Name="fault and error bookkeeping.vi" Type="VI" URL="../fault and error bookkeeping.vi"/>
+		<Item Name="find next action.vi" Type="VI" URL="../find next action.vi"/>
 		<Item Name="launch async modules.vi" Type="VI" URL="../launch async modules.vi"/>
-		<Item Name="merge fault lists.vi" Type="VI" URL="../../Runtime/merge fault lists.vi"/>
-		<Item Name="perform asynchronous fault handling.vi" Type="VI" URL="../../Runtime/perform asynchronous fault handling.vi"/>
-		<Item Name="perform fault handling.vi" Type="VI" URL="../../Runtime/perform fault handling.vi"/>
-		<Item Name="primary control loop.vi" Type="VI" URL="../../Runtime/primary control loop.vi"/>
-		<Item Name="report timing.vi" Type="VI" URL="../../Runtime/report timing.vi"/>
-		<Item Name="rt swap object in dvr.vi" Type="VI" URL="../../Runtime/rt swap object in dvr.vi"/>
-		<Item Name="safe state action.vi" Type="VI" URL="../../Runtime/safe state action.vi"/>
+		<Item Name="merge fault lists.vi" Type="VI" URL="../merge fault lists.vi"/>
+		<Item Name="perform asynchronous fault handling.vi" Type="VI" URL="../perform asynchronous fault handling.vi"/>
+		<Item Name="perform fault handling.vi" Type="VI" URL="../perform fault handling.vi"/>
+		<Item Name="primary control loop.vi" Type="VI" URL="../primary control loop.vi"/>
+		<Item Name="report timing.vi" Type="VI" URL="../report timing.vi"/>
+		<Item Name="rt swap object in dvr.vi" Type="VI" URL="../rt swap object in dvr.vi"/>
+		<Item Name="safe state action.vi" Type="VI" URL="../safe state action.vi"/>
 		<Item Name="stop async modules.vi" Type="VI" URL="../stop async modules.vi"/>
-		<Item Name="uninitialize action.vi" Type="VI" URL="../../Runtime/uninitialize action.vi"/>
-		<Item Name="wait for recovered modules.vi" Type="VI" URL="../../Runtime/wait for recovered modules.vi"/>
+		<Item Name="uninitialize action.vi" Type="VI" URL="../uninitialize action.vi"/>
+		<Item Name="wait for recovered modules.vi" Type="VI" URL="../wait for recovered modules.vi"/>
 	</Item>
 	<Item Name="types" Type="Folder">
-		<Item Name="control loop data.ctl" Type="VI" URL="../../Runtime/control loop data.ctl"/>
-		<Item Name="Engine Data.ctl" Type="VI" URL="../../Runtime/Engine Data.ctl"/>
-		<Item Name="engine decimation schedule.ctl" Type="VI" URL="../../Runtime/engine decimation schedule.ctl"/>
-		<Item Name="engine process action.ctl" Type="VI" URL="../../Runtime/engine process action.ctl"/>
-		<Item Name="engine references.ctl" Type="VI" URL="../../Runtime/engine references.ctl"/>
-		<Item Name="engine run schedule.ctl" Type="VI" URL="../../Runtime/engine run schedule.ctl"/>
-		<Item Name="engine state.ctl" Type="VI" URL="../../Runtime/engine state.ctl"/>
-		<Item Name="execution flags.ctl" Type="VI" URL="../../Runtime/execution flags.ctl"/>
-		<Item Name="fault handling spec.ctl" Type="VI" URL="../../Runtime/fault handling spec.ctl"/>
-		<Item Name="full module data.ctl" Type="VI" URL="../../Runtime/full module data.ctl"/>
-		<Item Name="module method data.ctl" Type="VI" URL="../../Runtime/module method data.ctl"/>
-		<Item Name="module run state.ctl" Type="VI" URL="../../Runtime/module run state.ctl"/>
-		<Item Name="rt fault.ctl" Type="VI" URL="../../Runtime/rt fault.ctl"/>
-		<Item Name="status reporting data.ctl" Type="VI" URL="../../Runtime/status reporting data.ctl"/>
-		<Item Name="time information.ctl" Type="VI" URL="../../Runtime/time information.ctl"/>
-		<Item Name="timed loop timing sources.ctl" Type="VI" URL="../../Runtime/timed loop timing sources.ctl"/>
+		<Item Name="control loop data.ctl" Type="VI" URL="../control loop data.ctl"/>
+		<Item Name="Engine Data.ctl" Type="VI" URL="../Engine Data.ctl"/>
+		<Item Name="engine decimation schedule.ctl" Type="VI" URL="../engine decimation schedule.ctl"/>
+		<Item Name="engine process action.ctl" Type="VI" URL="../engine process action.ctl"/>
+		<Item Name="engine references.ctl" Type="VI" URL="../engine references.ctl"/>
+		<Item Name="engine run schedule.ctl" Type="VI" URL="../engine run schedule.ctl"/>
+		<Item Name="execution flags.ctl" Type="VI" URL="../execution flags.ctl"/>
+		<Item Name="fault handling spec.ctl" Type="VI" URL="../fault handling spec.ctl"/>
+		<Item Name="full module data.ctl" Type="VI" URL="../full module data.ctl"/>
+		<Item Name="module method data.ctl" Type="VI" URL="../module method data.ctl"/>
+		<Item Name="module run state.ctl" Type="VI" URL="../module run state.ctl"/>
+		<Item Name="rt fault.ctl" Type="VI" URL="../rt fault.ctl"/>
+		<Item Name="status reporting data.ctl" Type="VI" URL="../status reporting data.ctl"/>
+		<Item Name="time information.ctl" Type="VI" URL="../time information.ctl"/>
+		<Item Name="timed loop timing sources.ctl" Type="VI" URL="../timed loop timing sources.ctl"/>
 	</Item>
-	<Item Name="Standard Engine.vi" Type="VI" URL="../../Runtime/Standard Engine.vi"/>
+	<Item Name="Standard Engine.vi" Type="VI" URL="../Standard Engine.vi"/>
 </Library>
