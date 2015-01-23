@@ -45,6 +45,5 @@
 		<Item Name="time information.ctl" Type="VI" URL="../time information.ctl"/>
 		<Item Name="timed loop timing sources.ctl" Type="VI" URL="../timed loop timing sources.ctl"/>
 	</Item>
-	<Item Name="merge single fault.vi" Type="VI" URL="../../worker library/merge single fault.vi"/>
 	<Item Name="Standard Engine.vi" Type="VI" URL="../Standard Engine.vi"/>
 </Library>

@@ -14,6 +14,7 @@
 		<Item Name="worker library reference.ctl" Type="VI" URL="../worker library reference.ctl"/>
 	</Item>
 	<Item Name="fault handling" Type="Folder">
+		<Item Name="merge single fault.vi" Type="VI" URL="../merge single fault.vi"/>
 		<Item Name="request fault.vi" Type="VI" URL="../request fault.vi"/>
 		<Item Name="rt fault.ctl" Type="VI" URL="../rt fault.ctl"/>
 	</Item>
