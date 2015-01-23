@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2015-01-14 14:29:14" Creator="Daniel" Comments="" ID="26fdf1ed09d255d66acbbf20163e1fa2">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2015-01-22 19:15:31" Creator="Daniel" Comments="" ID="b9600b07af6c07fdaeb8b16c8ef61fe9">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbd_stdeng</Package_File_Name>
-    <Library_Version>2.1.1.2</Library_Version>
+    <Library_Version>2.2.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\engines\standard engine</Library_Output_Folder>
@@ -37,7 +37,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes>Autobuild</Release_Notes>
+      <Release_Notes>Complete refactor to new, more deterministic error handling and module recovery</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -133,6 +133,36 @@
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
+        <Password/>
+        <Locked_Only>true</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Execution Engine/worker library/worker pool.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Execution Engine/Runtime/Standard Engine Runtime.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Execution Engine/main engine/main engine.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Execution Engine/Configuration/Standard Engine Configuration.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Execution Engine/async executor/async executor.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Editor Node/Standard Engine Editor Node.lvclass</Path>
         <Password/>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
@@ -530,7 +560,7 @@
         <Path>Execution Engine\Configuration\to string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E371460E9411B9E64258D23847C49973</GUID>
+      <GUID>CCDDD3D9D712E0299BF12850569D6F2B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
