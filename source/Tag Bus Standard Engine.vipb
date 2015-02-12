@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2015-01-22 19:15:31" Creator="Daniel" Comments="" ID="b9600b07af6c07fdaeb8b16c8ef61fe9">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2015-02-11 19:37:50" Creator="Daniel" Comments="" ID="bb4291b7d9739ce1a470401c32d6bcc1">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbd_stdeng</Package_File_Name>
     <Library_Version>2.2.0.1</Library_Version>
@@ -102,18 +102,6 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Execution Engine/Configuration</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Execution Engine/Runtime</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>Execution Engine/standard engine configuration drop VI.vi</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
@@ -172,16 +160,10 @@
         <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
-        <Path>Editor Node/sample_code_license_terms_20141101.txt</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Editor Node/standard engine editor.lvproj</Path>
       </Exclusions>
       <Exclusions>
         <Path>Execution Engine/tests</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Execution Engine/sample_code_license_terms_20141101.txt</Path>
       </Exclusions>
       <Exclusions>
         <Path>Execution Engine/Standard Engine Example.lvproj</Path>
@@ -560,7 +542,7 @@
         <Path>Execution Engine\Configuration\to string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CCDDD3D9D712E0299BF12850569D6F2B</GUID>
+      <GUID>CD247DC535E462DA9A4535FD6270E3EF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
