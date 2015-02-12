@@ -29,7 +29,6 @@
 				<Item Name="testmod runtime.lvclass" Type="LVClass" URL="../Execution Engine/tests/testmodule/execution/testmod runtime.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="async executor.lvlib" Type="Library" URL="../Execution Engine/async executor/async executor.lvlib"/>
 		<Item Name="main engine.lvlib" Type="Library" URL="../Execution Engine/main engine/main engine.lvlib"/>
 		<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="../Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
 		<Item Name="Standard Engine Editor Node.lvclass" Type="LVClass" URL="../Editor Node/Standard Engine Editor Node.lvclass"/>
