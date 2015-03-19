@@ -32,11 +32,13 @@
 		<Item Name="decimate.vi" Type="VI" URL="../decimate.vi"/>
 		<Item Name="fault and error bookkeeping.vi" Type="VI" URL="../fault and error bookkeeping.vi"/>
 		<Item Name="find next action.vi" Type="VI" URL="../find next action.vi"/>
+		<Item Name="flush comms fifos.vi" Type="VI" URL="../flush comms fifos.vi"/>
 		<Item Name="launch async modules.vi" Type="VI" URL="../launch async modules.vi"/>
 		<Item Name="merge fault lists.vi" Type="VI" URL="../merge fault lists.vi"/>
 		<Item Name="perform asynchronous fault handling.vi" Type="VI" URL="../perform asynchronous fault handling.vi"/>
 		<Item Name="perform fault handling.vi" Type="VI" URL="../perform fault handling.vi"/>
 		<Item Name="primary control loop.vi" Type="VI" URL="../primary control loop.vi"/>
+		<Item Name="process incoming messages.vi" Type="VI" URL="../process incoming messages.vi"/>
 		<Item Name="report timing.vi" Type="VI" URL="../report timing.vi"/>
 		<Item Name="rt swap object in dvr.vi" Type="VI" URL="../rt swap object in dvr.vi"/>
 		<Item Name="safe state action.vi" Type="VI" URL="../safe state action.vi"/>
@@ -54,11 +56,18 @@
 		<Item Name="execution flags.ctl" Type="VI" URL="../execution flags.ctl"/>
 		<Item Name="fault handling spec.ctl" Type="VI" URL="../fault handling spec.ctl"/>
 		<Item Name="full module data.ctl" Type="VI" URL="../full module data.ctl"/>
+		<Item Name="loop comms.ctl" Type="VI" URL="../loop comms.ctl"/>
+		<Item Name="message from engine.ctl" Type="VI" URL="../message from engine.ctl"/>
+		<Item Name="message request type.ctl" Type="VI" URL="../message request type.ctl"/>
+		<Item Name="message response type.ctl" Type="VI" URL="../message response type.ctl"/>
+		<Item Name="message to engine.ctl" Type="VI" URL="../message to engine.ctl"/>
 		<Item Name="module method data.ctl" Type="VI" URL="../module method data.ctl"/>
 		<Item Name="module run state.ctl" Type="VI" URL="../module run state.ctl"/>
+		<Item Name="shared engine config.ctl" Type="VI" URL="../shared engine config.ctl"/>
 		<Item Name="status reporting data.ctl" Type="VI" URL="../status reporting data.ctl"/>
 		<Item Name="time information.ctl" Type="VI" URL="../time information.ctl"/>
 		<Item Name="timed loop timing sources.ctl" Type="VI" URL="../timed loop timing sources.ctl"/>
 	</Item>
+	<Item Name="block or unblock module.vi" Type="VI" URL="../block or unblock module.vi"/>
 	<Item Name="Standard Engine.vi" Type="VI" URL="../Standard Engine.vi"/>
 </Library>
