@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2015-08-07 11:53:39" Creator="Daniel" Comments="" ID="1f7e425c345d28bf4e83d3c97895f511">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2015-08-07 12:54:13" Creator="Daniel" Comments="" ID="0a4f0d1f78b391e0a99e6d8f6414f841">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbd_stdeng</Package_File_Name>
-    <Library_Version>2.2.1000.3</Library_Version>
+    <Library_Version>2.2.1000.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\engines\standard engine</Library_Output_Folder>
@@ -537,7 +537,7 @@
         <Path>Execution Engine\Configuration\to string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C4AE827142D99F3060F4B8A7E876825</GUID>
+      <GUID>4B56FFF930B2B3648BFF5871C05340B7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
