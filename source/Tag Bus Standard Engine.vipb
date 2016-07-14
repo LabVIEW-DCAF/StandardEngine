@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2016-06-20 14:00:57" Creator="Daniel" Comments="" ID="437ba271ac56b93e54562817f870147c">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2016-07-14 11:07:32" Creator="Daniel" Comments="" ID="011d87f35a249b73227a38a5ef8ff7c9">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbd_stdeng</Package_File_Name>
     <Library_Version>2.2.0.1</Library_Version>
@@ -43,7 +43,7 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;vi.lib&gt;\NI\DCAF Engines\Standard Engine</Path>
+        <Path>&lt;vi.lib&gt;\NI\DCAF\Engines\Standard Engine</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -534,7 +534,7 @@
         <Path>Execution Engine\Configuration\to string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>10360840CE5D08B043D5FD08C3C78C85</GUID>
+      <GUID>9EE4F86164EB922B1B58900FBF0F0BF9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
