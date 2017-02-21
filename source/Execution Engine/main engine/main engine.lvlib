@@ -27,6 +27,7 @@
 		<Item Name="control loop input action.vi" Type="VI" URL="../control loop input action.vi"/>
 		<Item Name="control loop output action.vi" Type="VI" URL="../control loop output action.vi"/>
 		<Item Name="control loop output safe state action.vi" Type="VI" URL="../control loop output safe state action.vi"/>
+		<Item Name="control loop pre-execution metrics.vi" Type="VI" URL="../control loop pre-execution metrics.vi"/>
 		<Item Name="control loop process action.vi" Type="VI" URL="../control loop process action.vi"/>
 		<Item Name="control loop process safe state action.vi" Type="VI" URL="../control loop process safe state action.vi"/>
 		<Item Name="decimate.vi" Type="VI" URL="../decimate.vi"/>
@@ -63,6 +64,8 @@
 		<Item Name="message to engine.ctl" Type="VI" URL="../message to engine.ctl"/>
 		<Item Name="module method data.ctl" Type="VI" URL="../module method data.ctl"/>
 		<Item Name="module run state.ctl" Type="VI" URL="../module run state.ctl"/>
+		<Item Name="pre-execution data.ctl" Type="VI" URL="../pre-execution data.ctl"/>
+		<Item Name="pre-execution timing indices.ctl" Type="VI" URL="../pre-execution timing indices.ctl"/>
 		<Item Name="shared engine config.ctl" Type="VI" URL="../shared engine config.ctl"/>
 		<Item Name="status reporting data.ctl" Type="VI" URL="../status reporting data.ctl"/>
 		<Item Name="time information.ctl" Type="VI" URL="../time information.ctl"/>
