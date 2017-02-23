@@ -27,9 +27,9 @@
 		<Item Name="control loop input action.vi" Type="VI" URL="../control loop input action.vi"/>
 		<Item Name="control loop output action.vi" Type="VI" URL="../control loop output action.vi"/>
 		<Item Name="control loop output safe state action.vi" Type="VI" URL="../control loop output safe state action.vi"/>
-		<Item Name="control loop pre-execution metrics.vi" Type="VI" URL="../control loop pre-execution metrics.vi"/>
 		<Item Name="control loop process action.vi" Type="VI" URL="../control loop process action.vi"/>
 		<Item Name="control loop process safe state action.vi" Type="VI" URL="../control loop process safe state action.vi"/>
+		<Item Name="control loop update execution timing tag.vi" Type="VI" URL="../control loop update execution timing tag.vi"/>
 		<Item Name="decimate.vi" Type="VI" URL="../decimate.vi"/>
 		<Item Name="fault and error bookkeeping.vi" Type="VI" URL="../fault and error bookkeeping.vi"/>
 		<Item Name="find next action.vi" Type="VI" URL="../find next action.vi"/>
@@ -55,6 +55,8 @@
 		<Item Name="engine references.ctl" Type="VI" URL="../engine references.ctl"/>
 		<Item Name="engine run schedule.ctl" Type="VI" URL="../engine run schedule.ctl"/>
 		<Item Name="execution flags.ctl" Type="VI" URL="../execution flags.ctl"/>
+		<Item Name="execution time fields.ctl" Type="VI" URL="../execution time fields.ctl"/>
+		<Item Name="execution timing indices.ctl" Type="VI" URL="../execution timing indices.ctl"/>
 		<Item Name="fault handling spec.ctl" Type="VI" URL="../fault handling spec.ctl"/>
 		<Item Name="full module data.ctl" Type="VI" URL="../full module data.ctl"/>
 		<Item Name="loop comms.ctl" Type="VI" URL="../loop comms.ctl"/>
@@ -65,7 +67,6 @@
 		<Item Name="module method data.ctl" Type="VI" URL="../module method data.ctl"/>
 		<Item Name="module run state.ctl" Type="VI" URL="../module run state.ctl"/>
 		<Item Name="pre-execution data.ctl" Type="VI" URL="../pre-execution data.ctl"/>
-		<Item Name="pre-execution timing indices.ctl" Type="VI" URL="../pre-execution timing indices.ctl"/>
 		<Item Name="shared engine config.ctl" Type="VI" URL="../shared engine config.ctl"/>
 		<Item Name="status reporting data.ctl" Type="VI" URL="../status reporting data.ctl"/>
 		<Item Name="time information.ctl" Type="VI" URL="../time information.ctl"/>
