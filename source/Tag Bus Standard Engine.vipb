@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2017-02-20 15:04:32" Creator="Daniel" Comments="" ID="56c694ef3c156e4bda774de97f07759d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2017-03-07 17:12:56" Creator="Daniel" Comments="" ID="c06fd8b0922cb12c6480e51e794aed4d">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_standard_engine</Package_File_Name>
-    <Library_Version>2.3.1.1</Library_Version>
+    <Library_Version>2.3.2.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\engines\standard engine</Library_Output_Folder>
@@ -38,7 +38,8 @@
       <URL/>
       <Release_Notes>DCAF 1.1 Release
 --Fixes issue where errors could be cleared before logged to syslog (https://github.com/LabVIEW-DCAF/StandardEngine/issues/63)
---Sets default for unclassified errors to include logging of the error (https://github.com/LabVIEW-DCAF/StandardEngine/issues/63)</Release_Notes>
+--Sets default for unclassified errors to include logging of the error (https://github.com/LabVIEW-DCAF/StandardEngine/issues/63)
+--Fixes issue causing single-core targets to take excessively long time to inititalize (https://github.com/LabVIEW-DCAF/StandardEngine/issues/66)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -535,7 +536,7 @@
         <Path>Execution Engine\Configuration\to string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F951C3B25B7A132348E2C70EF855EC3A</GUID>
+      <GUID>5BA0D1EE88A6984CD467458EF8934EA6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
