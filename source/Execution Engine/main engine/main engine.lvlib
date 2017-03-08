@@ -22,6 +22,7 @@
 		<Item Name="stop async worker.vi" Type="VI" URL="../../async executor/stop async worker.vi"/>
 	</Item>
 	<Item Name="control loop" Type="Folder">
+		<Item Name="block or unblock module.vi" Type="VI" URL="../block or unblock module.vi"/>
 		<Item Name="buffer error.vi" Type="VI" URL="../buffer error.vi"/>
 		<Item Name="control loop bookkeeping.vi" Type="VI" URL="../control loop bookkeeping.vi"/>
 		<Item Name="control loop input action.vi" Type="VI" URL="../control loop input action.vi"/>
@@ -72,6 +73,5 @@
 		<Item Name="time information.ctl" Type="VI" URL="../time information.ctl"/>
 		<Item Name="timed loop timing sources.ctl" Type="VI" URL="../timed loop timing sources.ctl"/>
 	</Item>
-	<Item Name="block or unblock module.vi" Type="VI" URL="../block or unblock module.vi"/>
 	<Item Name="Standard Engine.vi" Type="VI" URL="../Standard Engine.vi"/>
 </Library>
