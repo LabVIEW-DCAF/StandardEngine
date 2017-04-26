@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2017-04-26 17:17:43" Creator="Daniel" Comments="" ID="5460b631e53d8b41d9193f667d48ff46">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 11:35:45" Modified_Date="2017-04-26 18:45:13" Creator="Daniel" Comments="" ID="0c0c2a1b766361eea2259db15242fbac">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_standard_engine</Package_File_Name>
-    <Library_Version>2.4.0.1</Library_Version>
+    <Library_Version>2.4.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\engines\standard engine</Library_Output_Folder>
@@ -533,7 +533,7 @@
         <Path>Execution Engine\Configuration\to string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8213813F9A5ABEDA508372FECF6BA25</GUID>
+      <GUID>35E4C9C7F16F2471CB618EBD43563D74</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
