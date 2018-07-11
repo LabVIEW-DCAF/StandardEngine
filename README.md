@@ -9,7 +9,7 @@ This document will first outline the features of the Standard Engine and how to 
 The Standard Engine can run on both Windows and LabVIEW Real-Time targets. It also supports the instantiation of multiple instances on one target. This can be helpful when different plug-ins need to execute on the same target with different timing sources or when developing an engine as a self-contained grouping of behavior that is independent of behavior achieved by other engines.
 
 ### Primary Configuration Page
-The following features are configurable from the 'Primary Configuration' page of the Standard Engine Editor Node.
+The following features are configurable from the *Primary Configuration* page of the Standard Engine Editor Node.
 
 ![StdEngine_EngineSettings](Documentation/StandardEngine_EngineSettings.png)
 
@@ -19,7 +19,9 @@ The following features are configurable from the 'Primary Configuration' page of
 
 If *Use Module Timing Source* is selected, then a list of modules will be displayed to allow the selection of a specific module to provide the timing source to time the loop. Keep in mind that not all modules will provide a timing source.
 
-**Timing Reporting**: Timing reporting is enabled by selecting *Create Timing Report Tags?*. This will automatically generate four engine tags that will contain information regarding if the engine was ever late, how many times it was late, the timing source dt, and the last iteration's execution time in nanoseconds.
+**Timing Reporting**: Timing reporting is enabled by selecting *Create Basic Execution Timing Tags*. This will automatically generate four engine tags that will contain information regarding if the engine was ever late, how many times it was late, the timing source dt, and the last iteration's execution time in nanoseconds.
+
+**Execution Timing Tags**: Execution Timing Tags are enabled by selecting *Create Detailed Execution Timing Tags*. This will automatically generate four tags that contain information about the start time of the current iteration as well as the execution duration, in nanoseconds, of the Input, Process, and Output actions.
 
 **Processor Assignment**: The *Processor Assignment* field is used to specify which CPU core the engine will execute on. *Automatic* is the default behavior and allows LabVIEW and the OS to choose the ideal execution behavior. This option should generally not be changed without good reason.
 
@@ -36,11 +38,21 @@ The following features are configurable on a per-module basis from the 'Module C
 
 **Asynchronous Execution**: By default the Standard Engine executes all plug-ins within its main thread. While this offers the best possible performance, it also means a module that is blocking or poorly-developed can slow down the execution of the entire engine and every other module within it. To resolve this, the Standard Engine allows users to select *Execute Asynchronously?* from the configuration page which tells the engine to call that module in its own thread. The Standard Engine will automatically create the thread and the communication pathways for this to work properly. The engine will also still trigger the execution of this thread based on the configured timing source. However if that thread blocks, the execution of the main engine thread will remain unaffected.
 
-**Create Error Tag**: This feature allows the engine to create an I32 error tag for that module. Each module can be given its own error tag, and these errors can be mapped to other channels to pass error information between modules. For example if module A needs to know when module B has an error, create an error tag for module B and map that tag to a parameter or output channel on module A.
+**Create Error Tag**: This feature allows the engine to create an I32 error tag for that module, the value of which is the error code from the input, processing, and output actions. Each module can be given its own error tag, and these errors can be mapped to other channels to pass error information between modules. For example if module A needs to know when module B has an error, create an error tag for module B and map that tag to a parameter or output channel on module A.
+
+**Continue on Initialization Error**: By default, if any module returns an error during initialization it will prevent the execution of the engine. If *Continue on Initialization Error?* is selected, the error will still be logged but the error status will be set to FALSE, allowing execution to continue.
 
 **Error Handling Actions**: Perhaps one of the most important features of the Standard Engine is its ability to automatically take action based on errors that get reported by the modules it is executing. A module is responsible for classifying any errors that it generates. The Standard Engine can then be configured to take a variety of pre-built actions based on both the module that threw the error and that error's classification.
 
-The Standard Engine currently provides seven selectable error actions. *Clea*' discards the error once all of the other selected error actions have occurred. *Notify* places the error in the engine's fault buffer so that it can be received by the main application. *Log* writes the error to Syslog. *Remove Module* removes that module from the engine's execution schedule until the engine is reconfigured, all other engine operation will continue as normal. *Abort Engine* transitions the engine to a safe-state and then unitializes and closes itself. *Go to Safe State* simply transitions the engine to a safe state but does not unitialize. *Recover Module* sends the module to a worker pool where the module is closed, reinitialized, and then placed back into the engine's execution schedule assuming the recovery was successful.
+Error Handling Action | Description
+--- | ---
+Clear | Discards the error once all of the other selected error actions have occurred
+Notify | Places the error in the engine's fault buffer so that it can be received by the main application
+Log | Writes the error to Syslog
+Remove Module | Removes that module from the engine's execution schedule until the engine is reconfigured, all other engine operation will continue as normal
+Abort Engine | Transitions the engine to a safe-state and then uninitializes and closes itself
+Go to Safe State | Transitions the engine to a safe-state but does not uninitialize
+Recover Module | Sends the module to a worker pool where the module is closed, reinitialized, and then placed back into the engine's execution schedule assuming the recovery was successful
 
 # Source Code Design
 This section will explain the main principles driving the design of the Standard Engine and then cover important aspects of the implementation.
@@ -53,15 +65,15 @@ From a high-level, the Standard Engine is comprised of four seperate pieces of s
 
 <img src="Documentation/StdEngine_yEd.png" width="500">
 
-The Engine Execution Interface API is what is used in an end user's application. It is responsible for creating communication pathways and for launching the Main Engine Process. It also handles much of the engine's initialization tasks. Once initialized, the API primarily sends commands to the Main Engine Process for state changes and to accesses status information.
+**Engine Execution Interface API**: The Engine Execution Interface API is what is used in an end user's application. It is responsible for creating communication pathways and for launching the Main Engine Process. It also handles much of the engine's initialization tasks. Once initialized, the API primarily sends commands to the Main Engine Process for state changes and to accesses status information.
 
-The Main Engine Process is the central element of this implementation. It is responsible for communicating with the other elements and executes the main business logic for the engine. That main business logic is very straightforward. First it waits for the selected timing source to fire. Then it sequentially gathers inputs from each required plug-in module and copies that data into its main tag bus table using the information from the mapping API. This is then repeated for all process functions, and for all output functions. Finally the Main Engine Process executes all of its error handling, scheduling, and other bookkeeping tasks. The block diagram for the loop of the Main Engine Process is shown below.
+**Main Engine Process**: The Main Engine Process is the central element of this implementation. It is responsible for communicating with the other elements and executes the main business logic for the engine. That main business logic is very straightforward. First it waits for the selected timing source to fire. Then it sequentially gathers inputs from each required plug-in module and copies that data into its main tag bus table using the information from the mapping API. This is then repeated for all process functions, and for all output functions. Finally the Main Engine Process executes all of its error handling, scheduling, and other bookkeeping tasks. The block diagram for the loop of the Main Engine Process is shown below.
 
 ![TimedLoop](Documentation/TimedLoop.png)
 
-The Asynchronous Execution Engines get launched by the Main Engine Process. There is one of these engines for each plug-in module configured to run asynchronously. The Main Engine Process automatically creates deterministic communication pathways for each asynchronous process it launches. The Main Engine Process also sends commands to these processes telling them when to execute. As a result, timing for each Asynchronous Execution Engine is taken care of automatically. They will run as fast as the engine tells them, or as fast as possible in the case where they can't keep up.
+**Asynchronous Execution Engines**: Asynchronous Execution Engines get launched by the Main Engine Process. There is one of these engines for each plug-in module configured to run asynchronously. The Main Engine Process automatically creates deterministic communication pathways for each asynchronous process it launches. The Main Engine Process also sends commands to these processes telling them when to execute. As a result, timing for each Asynchronous Execution Engine is taken care of automatically. They will run as fast as the engine tells them, or as fast as possible in the case where they can't keep up.
 
-The Worker Pool is used to run various bookkeeping tasks for the engine that would otherwise slow down the engine's execution. This is similar to a producer/consumer pattern, but with multiple consumers. Each worker, or consumer, is capable of handling time-consuming tasks like reinitializing a module. In this use-case, the Main Engine Process would catch an error from a module, and attempt to recover from that error by reinitializing that module. However the Main Engine Process can't do that without slowing down its execution, so it instead hands this task over to the worker pool. A worker would then close the module that threw the error, attempt to reinitialize it, and then send it back to the Main Engine Process where it gets readded to the engine's execution schedule.
+**Worker Pool**: The Worker Pool is used to run various bookkeeping tasks for the engine that would otherwise slow down the engine's execution. This is similar to a producer/consumer pattern, but with multiple consumers. Each worker, or consumer, is capable of handling time-consuming tasks like reinitializing a module. In this use-case, the Main Engine Process would catch an error from a module, and attempt to recover from that error by reinitializing that module. However the Main Engine Process can't do that without slowing down its execution, so it instead hands this task over to the worker pool. A worker would then close the module that threw the error, attempt to reinitialize it, and then send it back to the Main Engine Process where it gets reintroduced to the engine's execution schedule.
 
 # Software Requirements
 + LabVIEW 2014 or newer
