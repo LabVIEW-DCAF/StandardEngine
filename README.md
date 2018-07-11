@@ -8,7 +8,7 @@ This document will first outline the features of the Standard Engine and how to 
 # Feature Description and Configuration
 The Standard Engine can run on both Windows and LabVIEW Real-Time targets. It also supports the instantiation of multiple instances on one target. This can be helpful when different plug-ins need to execute on the same target with different timing sources or when developing an engine as a self-contained grouping of behavior that is independent of behavior achieved by other engines.
 
-### Primary Configuration Page
+### Engine Settings
 The following features are configurable from the *Primary Configuration* page of the Standard Engine Editor Node.
 
 ![StdEngine_EngineSettings](Documentation/StandardEngine_EngineSettings.png)
@@ -27,7 +27,7 @@ If *Use Module Timing Source* is selected, then a list of modules will be displa
 
 If *Manual* is selected, the engine will automatically reserve the specified core for execution on Real-Time targets. This can greatly reduce the execution jitter of the engine, but prevents execution of any other tasks on that core.
 
-### Module Configuration Page
+### Module Settings
 The following features are configurable on a per-module basis from the 'Module Configuration' page of the Standard Engine Editor Node.
 
 ![StdEngine_ModuleSettings](Documentation/StandardEngine_ModuleSettings.png)
